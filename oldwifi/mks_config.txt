@@ -12,16 +12,16 @@
 
 #one key extrude
 >cfg_onekey_in_out_ABStemper:235
->cfg_onekey_in_out_PLAtemper:205
->cfg_onekey_in_out_Length:600
+>cfg_onekey_in_out_PLAtemper:215
+>cfg_onekey_in_out_Length:700
 
 #machine type num
->cfg_machine_config_cnt:3
+>cfg_machine_config_cnt:4
 #machine code
 >cfg_machine_config1:M1 D;
 >cfg_machine_config2:M1 C;
 >cfg_machine_config3:M1 CL;
->cfg_machine_config4:M1 C;
+>cfg_machine_config4:M1 P;
 >cfg_machine_config5:M1 C;
 
 #autolevel type num
